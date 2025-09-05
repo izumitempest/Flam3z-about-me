@@ -1,0 +1,92 @@
+/* Reset & base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #e0eafc, #cfdef3);
+  color: #333;
+  line-height: 1.6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+/* Container card */
+.container {
+  max-width: 800px;
+  width: 100%;
+  background: #fff;
+  padding: 2.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+  color: #111;
+}
+
+h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  color: #444;
+}
+
+p {
+  margin-bottom: 1.2rem;
+  color: #555;
+}
+
+/* Chips/cards */
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.chip {
+  background: #f0f0f0;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  font-size: 0.9rem;
+  transition: 0.3s;
+}
+
+.chip:hover {
+  background: #333;
+  color: #fff;
+}
+
+/* Links */
+.links {
+  margin-top: 1.5rem;
+}
+
+.links a {
+  margin: 0 0.8rem;
+  text-decoration: none;
+  font-weight: 500;
+  color: #0070f3;
+  transition: 0.3s;
+}
+
+.links a:hover {
+  color: #0055aa;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  h1 { font-size: 1.8rem; }
+  p { font-size: 0.95rem; }
+}
