@@ -1,4 +1,4 @@
-/* Reset & base */
+
 * {
   margin: 0;
   padding: 0;
@@ -14,10 +14,8 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  padding: 2rem;
-}
-
-/* Container card */
+  padding: 2r;
+  
 .container {
   max-width: 800px;
   width: 100%;
@@ -46,7 +44,6 @@ p {
   color: #555;
 }
 
-/* Chips/cards */
 .chips {
   display: flex;
   flex-wrap: wrap;
@@ -68,7 +65,7 @@ p {
   color: #fff;
 }
 
-/* Links */
+
 .links {
   margin-top: 1.5rem;
 }
@@ -85,8 +82,9 @@ p {
   color: #0055aa;
 }
 
-/* Responsive */
+
 @media (max-width: 600px) {
   h1 { font-size: 1.8rem; }
   p { font-size: 0.95rem; }
+
 }
